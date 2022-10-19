@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet"> 
+    <title>Document</title>
+</head>
+<body>
+    <video id="video" autoplay loop muted>
+        <source src="./video/liquid.mp4" type="video/mp4">
+    </video> 
+    <div class="container">
+        <nav>
+            <div class="topNav">
+            <h1>CT</h1>
+            <h1>////002</h1>
+        </div>
+    </nav>
+        <div class="pageContainer">
+            <div class="nav">
+                <ul>
+                    <li>
+                        <a onclick="loadHome()" id="homeBtn">01 HOME</a>
+                        <a onclick="workTitle()" id="workBtn">02 WORK</a>
+                        <a onclick="aboutTitle()" id="aboutBtn">03 ABOUT</a>
+                    </li>
+                </ul>
+            </div>
+        <div class="displaySection">
+                 <h1 id="pageTitle">///WELCOME</h1>
+                <div id="line"></div>
+         
+            <div id="welcomeDisplay" style="display: all">
+                <p>Welcome to my portfolio. Take a moment to explore my recent work, find out more about my skillset.</p>
+            </div>
+           <div id="workDisplay" style="display: none"> 
+               <div class="project">
+                    <img src="./Images/WeatherWatch.jpg"></img>
+                    <h1>Weather Watch</h1>
+                    <p>A weather app that uses OpenWeatherMap API to display weather forecast information for city upon search. Along with the weather, this application will also display humuditiy, wind speed, and show a full 5 day forecast</p>
+                    <a href="https://000690730.deployed.codepen.website/">View App</a>
+                    <div class="tech">
+                        <h3>HTML</h3>
+                        <h3>CSS</h3>
+                        <h3>Javascript</h3>
+                        <h3>OpenWeatherMap</h3>
+
+                    </div>
+                </div>
+               <div class="project">
+                <img src="./Images/myTaskScreenDemo.jpg"></img>
+                <h1>MyTask</h1>
+                <p>Productivity app that uses Tailwind CSS framework for styling. Interface allows users to add tasks as well as delete and edit existing tasks. This application also features a filter option that allows users to filter through tasks with specific attributes such as completed and pending. </p>
+                <a href="https://000690732.deployed.codepen.website/main.html">View App</a>
+                <div class="tech">
+                    <h3>HTML</h3>
+                    <h3>TAILWINDCSS</h3>
+                    <h3>Javascript</h3>
+
+                </div>
+                
+
+           </div>
+           <div class="project">
+            <img src="./Images/NotesApp.jpg"></img>
+            <h1>MyNotes</h1>
+            <p>Productivity app that uses Tailwind CSS framework for styling. Interface allows users to add notes as well as delete and edit existing notes. This application also features an interactive navigation which allows users to hide and show completed notes to provide more screen area for writing. </p>
+            <div class="tech">
+                <h3>HTML</h3>
+                <h3>TAILWINDCSS</h3>
+                <h3>Javascript</h3>
+
+            </div>
+        </div>
+                    <div class="project">
+                        <img src="./Images/TictacToe.jpg"></img>
+                            <h1>Android Tic Tac Toe Game</h1>
+                            <p>Tic Tac Toe game created in Android studio using Java. This application utilizes a grid system to programmatically create the UI in Java to create an interactive interface for users.</p>
+                    <div class="tech">
+                            <h3>Android Studio</h3>
+                            <h3>Java</h3>
+                        </div>
+        
+
+                    </div>
+                    <div class="project">
+                        <img src="./Images/WeightConverterApp.jpg"></img>
+                            <h1>Android Weight Converter</h1>
+                            <p>Simple Android application that allows users to calculate weight conversions for both kilograms and pounds.</p>
+                                 <div class="tech">
+                                    <h3>Android Studio</h3>
+                                    <h3>XML</h3>
+                                    <h3>Java</h3>
+                             </div>
+        
+
+                    </div>
+
+                    <div class="project">
+                        <img src="./Images/TipCalculator.jpg"></img>
+                            <h1>Android Tip Calculator</h1>
+                            <p>Simple Android application that allows users to calculate total amount including tip as well as split amount with tip amoung number of guests that they input.</p>
+                                 <div class="tech">
+                                    <h3>Android Studio</h3>
+                                    <h3>XML</h3>
+                                    <h3>Java</h3>
+                             </div>
+        
+
+                    </div>
+                 </div>
+
+
+
+            <div id="aboutDisplay" style="display: none">
+                <p>My name is <span>Colton Tollett.</span> I currently work as a Graphic Designer while studying Computer Science at Southeastern Oklahoma State University. 
+                I enjoy using my skillset in design, communication and development to create digital-focused user-experiences.
+                </p>
+            </div>
+    
+                    
+        </div>
+  
+    </div>
+        <ul class="socialMenu">
+            <li>
+                <a href="https://www.linkedin.com/in/colton-tollett-050127137/"><img src="images/Linkedin.svg"></a>
+                <a href="https://github.com/Ctollett"><img src="./Images/github.svg"></a>
+                <a href="ColtonTollett-Resume.pdf" class="resume">Resume</a>
+             
+            </li>
+        </ul>  
+    </div>
+ </div>
+</div>
+ <script src="index.js"></script>
+</body>
+</html>
